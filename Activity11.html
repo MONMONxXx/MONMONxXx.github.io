@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+
+            background-image: url(back01.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+
+        div.nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            text-shadow: 8px 8px 8px yellow;
+
+
+        }
+
+        div.nav li {
+            text-shadow: 8px 8px 8px yellow;
+            float: right;
+
+        }
+
+        div.nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+        }
+
+        div.nav li.logo {
+
+            float: left;
+
+        }
+
+
+        div.nav li a:hover {
+            background-color: blue;
+
+        }
+
+        .dropdown {
+            position: relative;
+
+            float: right;
+        }
+
+        .dropdown:hover {
+
+            background-color: blue;
+        }
+
+        .dropdown .dropdown-btn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 20px 40px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .dropdown .contents {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 180px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 5px 5px;
+            z-index: 1;
+            text-align: center;
+            text-decoration: none;
+
+        }
+
+        .dropdown .contents a {
+            list-style-type: none;
+
+            text-decoration: none;
+        }
+
+        .contents a:hover {
+            background-color: #ad9191;
+            display: block;
+
+        }
+
+        .dropdown:hover .contents {
+            display: block;
+
+        }
+
+        h1 {
+            text-shadow: 8px 8px 8px yellow;
+        }
+
+
+        .mainCon {
+            display: flex;
+            border: white solid;
+            justify-content: center;
+            /* center horizontally */
+            align-items: center;
+            width: 100%;
+            flex-wrap: wrap;
+
+
+
+        }
+
+        .con {
+            border: solid white;
+        }
+
+        .item1 {
+            flex: 1;
+
+            text-align: CENTER;
+            text-shadow: 8px 8px 8px yellow;
+            color: white;
+            padding: 20px 40px;
+        }
+
+        .item2 {
+            flex: 1;
+            color: white;
+            text-align: center;
+        }
+
+        .item3 {
+            flex: 1;
+            color: white;
+            text-align: center;
+        }
+
+        .item4 {
+            flex: 1;
+            color: white;
+            text-align: center;
+            text-shadow: 8px 8px 8px yellow;
+
+
+        }
+
+        .item5 {
+            flex: 1;
+            color: white;
+            text-align: center;
+            text-shadow: 8px 8px 8px yellow;
+        }
+
+        .item6 {
+            flex: 1;
+            color: white;
+            text-align: center;
+            text-shadow: 8px 8px 8px yellow;
+        }
+
+        .item7 {
+            flex: 1;
+            color: white;
+            text-align: center;
+            text-shadow: 8px 8px 8px yellow;
+        }
+
+        .conTitle {
+            display: flex;
+            border: white solid;
+            width: 100%;
+            /* text-align: center; */
+            /* align-items: center; */
+            justify-content: center;
+            color: white;
+
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <div class="nav">
+        <header>
+            <nav>
+
+
+                <ul>
+                    <li class="logo"><a href="index.html">MY PERSONAL COMPUTER</a></li>
+
+                    <li><a href="contact.html">CONTACT ME</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                </ul>
+
+                <div class="dropdown">
+                    <div>
+                        <button class="dropdown-btn">
+
+                            ABOUT THIS SITE
+
+                        </button>
+                        <div class="about this site">
+                            <a href="page.html">MY DREAM PC SET UPS</a>
+                            <a href="Activity2.html">NUMBER SYSTEM</a>
+                            <a href="Activity3.html">DATA FORMATS</a>
+                            <a href="Activity4.html">OPERATING SYSTEM</a>
+                            <a href="Activity5.html">Mobile and Games</a>
+                            <a href="Activity6.html">STORAGE PLATFORM</a>
+                            <a href="Activity7.html">DATABASE PLATFORM</a>
+                            <a href="Activity8.html">APPLICATION PLATFORM</a>
+                            <a href="Activity9.html">WEB PLATFORMS</a>
+                            <a href="Activity10.html">CONTENT MANAGEMENT SYSTEM</a>
+                            <a href="Activity12.html">ARTIFICIAL INTEL. PLATFORM</a>
+                            <a href="Activity13.html">MEDIA PLATFORMS</a>
+                            <a href="Activity14.html">INTERNET OF THINGS PLATFORM</a>
+                            <a href="act15.html">SECURITY</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </nav>
+        </header>
+
+    </div>
+
+
+    <div class="conTitle">
+        <h1>OPERATING SYSTEM (OS)</h1>
+    </div>
+    <div class="mainCon">
+
+
+
+        <div class="con item1">
+
+            <h1>WHAT IS OPERATING SYSTEM (OS)</h1>
+            <p>
+                An Operating System (OS) is a software that manages computer hardware and software resources and
+                provides common
+                services for computer programs. It acts as a bridge between the hardware and the software and allows
+                different
+                applications to communicate with the computer's hardware. There are different types of Operating
+                Systems, each with its
+                unique features and functions. In this article, we will explore some of the popular Operating Systems
+                and their platform
+                technologies.
+            </p>
+
+
+        </div>
+
+        <div class="con item2">
+
+            <h1>WE WILL LEARNED ABOUT OS</h1>
+            <img src="operating.jpg" style=" height:200px; width:600px;">
+
+
+        </div>
+
+        <div class="con item3">
+
+            <h1>THE INTRODUCTION TO OS</h1>
+            <iframe width="600" height="200" src="https://www.youtube.com/embed/26QPDBe-NB8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+
+        </div>
+        <div class="con item4">
+
+            <p>
+                Windows:
+                Windows is the most popular Operating System in the world, developed and owned by Microsoft. It is
+                widely used in
+                desktop and laptop computers and is known for its user-friendly interface and compatibility with various
+                applications.
+                Windows uses the NT kernel, which is responsible for managing memory, processes, and device drivers.
+                Windows supports a
+                wide range of hardware and software, making it a popular choice for personal and business use.
+            </p>
+
+
+        </div>
+
+        <div class="con item5">
+
+            <p>
+                Linux:
+                Linux is a free and open-source Operating System that is widely used in servers, supercomputers, and
+                mobile devices. It
+                is built on the UNIX model and uses the Linux kernel, which is responsible for managing memory,
+                processes, and device
+                drivers. Linux offers a high level of flexibility and customization, making it popular among developers
+                and tech-savvy
+                users. Linux also supports a wide range of software applications, including those designed for Windows.
+            </p>
+
+
+        </div>
+        <div class="con item6">
+
+            <p>
+                macOS:
+                macOS is an Operating System developed by Apple Inc. and is exclusively used on Apple's hardware, such
+                as MacBook, iMac,
+                and Mac Pro. It is known for its sleek design and high-quality graphics, making it popular among
+                creative professionals.
+                macOS is built on a UNIX foundation and uses the Darwin kernel, which is responsible for managing
+                memory, processes, and
+                device drivers. macOS supports a wide range of software applications, including those designed for
+                Windows.
+            </p>
+
+
+        </div>
+
+
+
+
+    </div>
+    <div class="con item7">
+
+        <p>
+            In conclusion, Operating Systems come in different forms, catering to different needs. The choice of
+            Operating System
+            depends on the requirements of the user, such as user-friendliness, compatibility, and customization. It's
+            essential to
+            choose the right Operating System that meets your needs, as it can affect the user experience, performance,
+            and security
+            of your device.
+        </p>
+    </div>
+
+</body>
+
+</html>
